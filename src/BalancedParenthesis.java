@@ -2,6 +2,11 @@ import java.util.Scanner;
 import java.util.Stack;
 public class BalancedParenthesis {
 
+	private final int a;
+	public BalancedParenthesis(int v)
+	{
+		a = v;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Stack<Integer> stack = new Stack<Integer>();
